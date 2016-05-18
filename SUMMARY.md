@@ -1,4 +1,4 @@
 # Summary
 
-* Use Cases
+* [Use Cases](docs/use_cases.md)
 
