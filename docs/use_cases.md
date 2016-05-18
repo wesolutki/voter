@@ -2,7 +2,7 @@
 
 {% plantuml %}
 actor Administrator
-actor Zarządca
-actor Członek
+actor Zarzadca
+actor Czlonek
 {% endplantuml %}
 
