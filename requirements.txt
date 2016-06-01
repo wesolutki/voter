@@ -1,0 +1,4 @@
+django
+django_debug_toolbar
+django_easy_select2
+mysqlclient

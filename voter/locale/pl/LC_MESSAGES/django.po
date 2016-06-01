@@ -1,0 +1,1100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-27 00:43+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+msgid "massage_reflexology_treatment"
+msgstr "rodzaj zabiegu"
+
+msgid "massage_reflexology_treatments"
+msgstr "rodzaje zabiegów"
+
+msgid "massage_reflexology_area"
+msgstr "okolica"
+
+msgid "massage_reflexology_areas"
+msgstr "okolice"
+
+msgid "massage_reflexology_card"
+msgstr "karta masażu i refleksoterapii"
+
+msgid "massage_reflexology_cards"
+msgstr "karty masażu i refleksoterapii"
+
+msgid "upper_limb_therapy"
+msgstr "karta terapii kończyny górnej"
+
+msgid "upper_limb_therapys"
+msgstr "karty terapii kończyny górnej"
+
+msgid "therapy_detailed_targets"
+msgstr "cele szczegółowe terapii"
+
+msgid "therapy_area"
+msgstr "okolica"
+
+msgid "therapy_areas"
+msgstr "okolice"
+
+msgid "used_methods_techniquess"
+msgstr "stosowane metody/techniki"
+
+msgid "used_methods_techniques"
+msgstr "stosowane metody/techniki"
+
+msgid "therapy_used_methods_techniquess"
+msgstr "stosowane metody/techniki"
+
+msgid "therapy_used_methods_techniques"
+msgstr "stosowane metody/techniki"
+
+msgid "left_area"
+msgstr "lewa okolica"
+
+msgid "right_area"
+msgstr "prawa okolica"
+
+msgid "therapist"
+msgstr "terapeuta"
+
+msgid "therapy_detailed_target"
+msgstr "cel szczegółowy terapii"
+
+msgid "support_type"
+msgstr "rodzaj podparcia"
+
+msgid "support_types"
+msgstr "rodzaje podparcia"
+
+msgid "injury_unit"
+msgstr "zespół urazu"
+
+msgid "gait_time"
+msgstr "czas chodu"
+
+msgid "parameters"
+msgstr "parametry"
+
+msgid "restoration_time"
+msgstr "czas restytucji po treningu"
+
+msgid "gait_speed"
+msgstr "prędkość chodu"
+
+#: admin.py:12
+msgid "Time spreads"
+msgstr "Przebiegi neurorehabilitacji"
+
+#: admin.py:16
+msgid "Coefficients"
+msgstr "Współczynniki"
+
+#: admin.py:19
+msgid "Diagnosis"
+msgstr "Diagnoza"
+
+#: admin.py:24
+msgid "Treatment"
+msgstr "Leczenie"
+
+#: models.py:15
+msgid "leading_doctors"
+msgstr "Lekarze prowadzący"
+
+msgid "leading_people"
+msgstr "Osoby prowadzące"
+
+#: models.py:19
+msgid "begin"
+msgstr "data rozpoczęcia"
+
+#: models.py:21
+msgid "end"
+msgstr "data zakończenia"
+
+#: models.py:25
+msgid "asia"
+msgstr "skala ASIA"
+
+#: models.py:27
+msgid "icd10"
+msgstr "kod ICD10"
+
+#: models.py:29
+msgid "ashworth"
+msgstr "skala Ashworth-a"
+
+#: models.py:33
+msgid "diagnosis"
+msgstr "diagnoza"
+
+#: models.py:35
+msgid "contraindicators"
+msgstr "przeciwskazania"
+
+#: models.py:37
+msgid "levels_of_injury"
+msgstr "poziomy urazów"
+
+#: models.py:41
+msgid "date_of_agreement"
+msgstr "data zgody na leczenie"
+
+#: models.py:43
+msgid "rehabilitation_at_home"
+msgstr "rehabilitacja w domu"
+
+#: models.py:50
+msgid "time_spread"
+msgstr "przebieg neurorehabilitacji"
+
+#: models.py:51
+msgid "time_spreads"
+msgstr "przebiegi neurorehabilitacji"
+
+#: models.py:56
+msgid "asias"
+msgstr "skale ASIA"
+
+#: models.py:61
+msgid "icd10s"
+msgstr "kody ICD10"
+
+#: models.py:66
+msgid "ashworths"
+msgstr "skale Ashworth-a"
+
+#: models.py:71
+msgid "level_of_injury"
+msgstr "poziom urazu"
+
+#: models.py:72
+msgid "level_of_injurys"
+msgstr "poziomy urazów"
+
+msgid "General"
+msgstr "Ogólne"
+
+msgid "Helpers"
+msgstr "Przyrządy wspomagające"
+
+msgid "Environment"
+msgstr "Środowisko"
+
+msgid "Results"
+msgstr "Rezultaty"
+
+msgid "Additionals"
+msgstr "Dodatkowe"
+
+msgid "date"
+msgstr "data"
+
+msgid "tool"
+msgstr "rodzaj przyboru"
+
+msgid "left_orthosis"
+msgstr "lewa ortez"
+
+msgid "right_orthosis"
+msgstr "prawa orteza"
+
+msgid "distance"
+msgstr "dystans"
+
+msgid "time"
+msgstr "czas wibracji"
+
+msgid "vertical_load"
+msgstr "obciążenie pionowe"
+
+msgid "horizontal_load"
+msgstr "obciążenie poziome"
+
+msgid "accented_traits"
+msgstr "akcentowane cechy"
+
+msgid "gait_coefficients"
+msgstr "reedukacja składowych chodu"
+
+msgid "akson_gait_index"
+msgstr "indeks chodu AKSON"
+
+msgid "assurance_type"
+msgstr "rodzaj asekuracji"
+
+msgid "displacement_type"
+msgstr "sposób przemieszczenia"
+
+msgid "additional_notes"
+msgstr "dodatkowe informacje"
+
+msgid "gait_reeducation_card"
+msgstr "karta reedukacji chodu"
+
+msgid "gait_reeducation_cards"
+msgstr "karty reedukacji chodu"
+
+msgid "reeducation_tool"
+msgstr "rodzaj przyboru"
+
+msgid "reeducation_tools"
+msgstr "rodzaje przyborów"
+
+msgid "education"
+msgstr "edukacja"
+
+msgid "orthosis_type"
+msgstr "typ ortezy"
+
+msgid "orthosis_types"
+msgstr "typy ortezy"
+
+msgid "accented_trait"
+msgstr "akcentowana cecha"
+
+msgid "gait_coefficient"
+msgstr "reedukacja składowych chodu"
+
+msgid "akson_gait_indexs"
+msgstr "indeksy chodu AKSON"
+
+msgid "assurance_types"
+msgstr "rodzaje asekuracji"
+
+msgid "displacement_types"
+msgstr "sposoby przemieszczenia"
+
+msgid "Info"
+msgstr "Opis"
+
+msgid "treatment_date"
+msgstr "data"
+
+msgid "category"
+msgstr "kategoria"
+
+msgid "description"
+msgstr "opis"
+
+msgid "document"
+msgstr "dokument"
+
+msgid "treatment_record"
+msgstr "dokument leczenia"
+
+msgid "treatment_records"
+msgstr "dokumenty leczeń"
+
+msgid "categorys"
+msgstr "kategorie"
+
+msgid "length_relative"
+msgstr "długość względna"
+
+msgid "length_absolute"
+msgstr "długość bezwzględna"
+
+msgid "length_real_absolute"
+msgstr "długość absolutna"
+
+msgid "length_arm"
+msgstr "długość ramienia"
+
+msgid "length_forearm"
+msgstr "długość przedramienia"
+
+msgid "length_hand"
+msgstr "długość ręki"
+
+msgid "width_hand"
+msgstr "szerokość ręki"
+
+msgid "length_finger"
+msgstr "długość palców"
+
+msgid "circuit_axillary_folds"
+msgstr "fałd pachwowy"
+
+msgid "circuit_15_cm_above_the_olecranon"
+msgstr "15 cm powyżej wyrostka łokciowego"
+
+msgid "circuit_elbow"
+msgstr "staw łokciowy"
+
+msgid "circuit_10_cm_below_the_olecranon"
+msgstr "10 cm poniżej wyrostka łokciowego"
+
+msgid "circuit_radial_carpal_joint"
+msgstr "staw promieniowo-nadgarstkowy"
+
+msgid "length_thigh"
+msgstr "długość uda"
+
+msgid "length_shank"
+msgstr "długość podudzia"
+
+msgid "length_foot"
+msgstr "długość stopy"
+
+msgid "width_foot"
+msgstr "szerokość stopy"
+
+msgid "circuit_gluteal_fold"
+msgstr "fałd pośladkowy"
+
+msgid "circuit_20_cm_above_the_patella"
+msgstr "20 cm powyżej rzepki"
+
+msgid "circuit_10_cm_above_the_patella"
+msgstr "10 cm powyżej rzepki"
+
+msgid "circuit_knee_joint"
+msgstr "staw kolanowy"
+
+msgid "circuit_15_cm_below_the_patella"
+msgstr "15 cm poniżej rzepki"
+
+msgid "circuit_ankle"
+msgstr "staw skokowy"
+
+msgid "active_motion"
+msgstr "ruch czynny"
+
+msgid "passive_motion"
+msgstr "ruch bierny"
+
+msgid "muscle_strength"
+msgstr "siła mięśniowa"
+
+msgid "muscle_strengths"
+msgstr "siły mięśniowe"
+
+msgid "straightening"
+msgstr "prostowanie"
+
+msgid "bending"
+msgstr "zginanie"
+
+msgid "adduction"
+msgstr "przywodzenie"
+
+msgid "internal_rotation"
+msgstr "rotacja zewnętrzna"
+
+msgid "external_rotation"
+msgstr "rotacja wewnętrzna"
+
+msgid "reverse"
+msgstr "odwracanie"
+
+msgid "convert"
+msgstr "nawracanie"
+
+msgid "extension_dorsal"
+msgstr "wyprost grzebietowy"
+
+msgid "palmar_flexion"
+msgstr "zgięcie dłoniowe"
+
+msgid "radial_abduction"
+msgstr "odwodzenie promieniowe"
+
+msgid "urnal_abduction"
+msgstr "odwodzenie łokciowe"
+
+msgid "thomas_test"
+msgstr "test Thomasa"
+
+msgid "plantar_flexion"
+msgstr "zgięcie podeszwowe"
+
+msgid "Upper limb"
+msgstr "Kończyna górna"
+
+msgid "Limbs measures"
+msgstr "Długości i obwody kończyn"
+
+msgid "Lower limb"
+msgstr "Kończyna dolna"
+
+msgid "Shoulder joint"
+msgstr "staw barkowy"
+
+msgid "Upper limb motion and strength"
+msgstr "Zakresy ruchów i siła mięśniowa kończyn górnych"
+
+msgid "elbow_joint"
+msgstr "staw łokciowy"
+
+msgid "radial_ulnar_joint"
+msgstr "stawy promieniowo-łokciowe"
+
+msgid "radial_carpal_joint"
+msgstr "staw promieniowo-nadgarstkowy"
+
+msgid "finger_joint"
+msgstr "stawy palców"
+
+msgid "Hip joint"
+msgstr "staw biodrowy"
+
+msgid "Lower limb motion and strength"
+msgstr "Zakresy ruchów i siła mięśniowa kończyn dolnych"
+
+msgid "knee_joint"
+msgstr "staw kolanowy"
+
+msgid "upper_ankle_joint"
+msgstr "staw skokowy górny"
+
+msgid "lower_ankle_joint"
+msgstr "staw skokowy dolny"
+
+msgid "Basic metrics"
+msgstr "Podstawowe wymiary"
+
+msgid "examiners"
+msgstr "osoby badające"
+
+msgid "height"
+msgstr "wzrost"
+
+msgid "metric_card"
+msgstr "karta metryczna"
+
+msgid "metric_cards"
+msgstr "karty metryczne"
+
+msgid "Excercise"
+msgstr "Ćwiczenie"
+
+msgid "excercise_signature"
+msgstr "sygnatura ćwiczenia"
+
+msgid "load"
+msgstr "obciążenie"
+
+msgid "repetitions"
+msgstr "liczba powtórzeń"
+
+msgid "sets"
+msgstr "liczba serii"
+
+msgid "nature_of_load"
+msgstr "charakter obciążenia"
+
+msgid "motion_range"
+msgstr "zakres ruchu"
+
+msgid "frequency"
+msgstr "częstotliwość wibracji"
+
+msgid "neurorehabilitation_card"
+msgstr "karta neurorehabilitacji"
+
+msgid "neurorehabilitation_cards"
+msgstr "karty neurorehabilitacji"
+
+msgid "excercise_signatures"
+msgstr "sygnatury ćwiczeń"
+
+msgid "starting_position"
+msgstr "pozycja wyjściowa"
+
+msgid "starting_positions"
+msgstr "pozycje wyjściowe"
+
+msgid "nature_of_loads"
+msgstr "charaktery obciążeń"
+
+msgid "motion_ranges"
+msgstr "zakresy ruchów"
+
+msgid "left"
+msgstr "lewa"
+
+msgid "right"
+msgstr "prawa"
+
+msgid "ais"
+msgstr "skala ASIA"
+
+msgid "asia_card"
+msgstr "skala ASIA"
+
+msgid "asia_cards"
+msgstr "skale ASIA"
+
+msgid "sensory_index"
+msgstr "Indeks sensoryczy"
+
+msgid "sensory_indexes"
+msgstr "Indeksy sensoryczne"
+
+msgid "motor_index"
+msgstr "Indeks motoryczy"
+
+msgid "motor_indexes"
+msgstr "Indeksy motoryczne"
+
+msgid "Private"
+msgstr "Osobiste"
+
+msgid "Address data"
+msgstr "Dane adresowe"
+
+msgid "Mailing address"
+msgstr "Adres korespondencyjny"
+
+msgid "Work"
+msgstr "Praca"
+
+msgid "Contact"
+msgstr "Kontakt"
+
+msgid "Injury info"
+msgstr "Informacje o urazie"
+
+msgid "first_name"
+msgstr "imię"
+
+msgid "last_name"
+msgstr "nazwisko"
+
+msgid "full_name"
+msgstr "pełne imię i nazwisko"
+
+msgid "M"
+msgstr "M"
+
+msgid "male"
+msgstr "mężczyzna"
+
+msgid "F"
+msgstr "K"
+
+msgid "female"
+msgstr "kobieta"
+
+msgid "gender"
+msgstr "płeć"
+
+msgid "blood_type"
+msgstr "grupa krwi"
+
+msgid "birth_date"
+msgstr "data urodzenia"
+
+msgid "pesel"
+msgstr "pesel"
+
+msgid "country"
+msgstr "kraj"
+
+msgid "city"
+msgstr "miasto"
+
+msgid "address"
+msgstr "adres"
+
+msgid "mailing_country"
+msgstr "kraj"
+
+msgid "mailing_city"
+msgstr "miasto"
+
+msgid "mailing_address"
+msgstr "adres"
+
+msgid "job"
+msgstr "zawód"
+
+msgid "workplace"
+msgstr "miejsce pracy"
+
+msgid "cell_phone"
+msgstr "telefon komórkowy"
+
+msgid "landline_phone"
+msgstr "telefon stacjonarny"
+
+msgid "email"
+msgstr "email"
+
+msgid "date_of_injury"
+msgstr "data urazu"
+
+msgid "time_of_injury"
+msgstr "godzina urazu"
+
+msgid "date_of_operation"
+msgstr "data operacji"
+
+msgid "time_of_operation"
+msgstr "godzina operacji"
+
+msgid "patient"
+msgstr "Pacjent"
+
+msgid "patients"
+msgstr "Pacjenci"
+
+msgid "groups"
+msgstr "grupy"
+
+msgid "persons"
+msgstr "osoby"
+
+msgid "employment_date"
+msgstr "data zatrudnienia"
+
+msgid "title"
+msgstr "tytuł"
+
+msgid "specialization"
+msgstr "specjalizacja"
+
+msgid "person"
+msgstr "osoba"
+
+msgid "treatment_type"
+msgstr "rodzaj zabiegu"
+
+msgid "area"
+msgstr "okolica zabiegu"
+
+msgid "physiotherapy_card"
+msgstr "karta fizykoterapii"
+
+msgid "physiotherapy_cards"
+msgstr "karta fizykoterapii"
+
+msgid "treatment_types"
+msgstr "rodzaje zabiegu"
+
+msgid "areas"
+msgstr "okolice zabiegu"
+
+msgid "Documentation"
+msgstr "dokumentation"
+
+msgid "Blood pressure at rest"
+msgstr "Ciśnienie spoczynkowe"
+
+msgid "blood_pressure_hr_rest"
+msgstr "HR"
+
+msgid "blood_pressure_rr_sys"
+msgstr "RR [SYS]"
+
+msgid "blood_pressure_rr_dia"
+msgstr "RR [DIA]"
+
+msgid "L"
+msgstr "L"
+
+msgid "R"
+msgstr "P"
+
+msgid "side"
+msgstr "strona"
+
+msgid "fixation_location"
+msgstr "lokalizacja fiksacji"
+
+msgid "track_gait_training"
+msgstr "trening chodu na bieżni"
+
+msgid "track_gait_trainings"
+msgstr "treningi chodu na bieżni"
+
+msgid "fixation_locations"
+msgstr "lokalizacje fiksacji"
+
+msgid "therapy_program"
+msgstr "program terapii"
+
+msgid "upper_limb_study"
+msgstr "karta badania kończyny górnej"
+
+msgid "upper_limb_studys"
+msgstr "karty badań kończyny górnej"
+
+msgid "surface_sense"
+msgstr "czucie powierzchniowe"
+
+msgid "surface_senses"
+msgstr "czucia powierzchniowe"
+
+msgid "feeling_limbs_pose"
+msgstr "czucie ułożenia kończyny"
+
+msgid "feeling_limbs_poses"
+msgstr "czucia ułożenia kończyny"
+
+msgid "feeling_vibration"
+msgstr "czucie wibracji"
+
+msgid "feeling_vibrations"
+msgstr "czucia wibracji"
+
+msgid "feeling_pain"
+msgstr "czucie bólu"
+
+msgid "feeling_pains"
+msgstr "czucia bólu"
+
+msgid "feeling_temperature"
+msgstr "czucie temperatury"
+
+msgid "feeling_temperatures"
+msgstr "czucia temperatury"
+
+msgid "test_reflexes"
+msgstr "badanie odruchów"
+
+msgid "test_reflexess"
+msgstr "badania odruchów"
+
+msgid "flexor_arm_side"
+msgstr "ramię str. zginaczy"
+
+msgid "rectifier_arm_side"
+msgstr "ramię str. prostowników"
+
+msgid "flexor_forearm_side"
+msgstr "przedramię str. zginaczy"
+
+msgid "rectifier_forearm_side"
+msgstr "przedramię str. prostowników"
+
+msgid "palmar_hand_side"
+msgstr "ręka str. dłoniowa"
+
+msgid "dorsal_hand_side"
+msgstr "ręka str. grzbietowa"
+
+msgid "thumb"
+msgstr "kciuk"
+
+msgid "index_finger"
+msgstr "wskazujący"
+
+msgid "finger_3"
+msgstr "palec III"
+
+msgid "ring_finger"
+msgstr "serdeczny"
+
+msgid "small_finger"
+msgstr "mały"
+
+msgid "arm"
+msgstr "ramię"
+
+msgid "forearm"
+msgstr "przedramię"
+
+msgid "hand"
+msgstr "ręka"
+
+msgid "feeling_cold"
+msgstr "czucie zimna"
+
+msgid "feeling_hot"
+msgstr "czucie ciepła"
+
+msgid "feeling_temperature_change"
+msgstr "czucie zmiany temperatury"
+
+msgid "radial"
+msgstr "promieniowy"
+
+msgid "cubital"
+msgstr "łokciowy"
+
+msgid "bicephalous"
+msgstr "dwugłowy"
+
+msgid "triceps"
+msgstr "trójgłowy"
+
+msgid "grip_study"
+msgstr "badanie chwytu"
+
+msgid "cylinders_diameter"
+msgstr "średnica cylindra"
+
+msgid "weight"
+msgstr "waga"
+
+msgid "SFTR measures"
+msgstr "zapis systemem SFTR pomiarów kątowych"
+
+msgid "joints"
+msgstr "stawy"
+
+msgid "plane_symbol"
+msgstr "symbol płaszczyzny"
+
+msgid "movements"
+msgstr "ruchy"
+
+msgid "cervical_sftr"
+msgstr "szyjnego odcinka kręgosłupa"
+
+msgid "thoraco_lumbar_sftr"
+msgstr "piersiowo-lędźwiowego odcinka kręgosłupa"
+
+msgid "shoulder_sftr"
+msgstr "barkowy"
+
+msgid "elbow_sftr"
+msgstr "łokciowy"
+
+msgid "radial_ulnar_nearer_and_further_sftr"
+msgstr "promieniowo-łokciowy bliższy i dalszy"
+
+msgid "radial_carpal_sftr"
+msgstr "promieniowo-nadgarstkowy"
+
+msgid "carpo_metacarpal_sftr"
+msgstr "nadgarstkowo-śródręczny I (CMC)"
+
+msgid "metacarpal_finger1_sftr"
+msgstr "śródręczno-palcowy I (MCP)"
+
+msgid "metacarpal_finger2_sftr"
+msgstr "śródręczno palcowe II V"
+
+msgid "interphalangeal_sftr"
+msgstr "międzypaliczkowy I (IPP)"
+
+msgid "interphalangeal_nearer_sftr"
+msgstr "międzypaliczowe bliższe II-V (DIP)"
+
+msgid "interphalangeal_further_sftr"
+msgstr "międzypaliczowe dalsze II-V (DIP)"
+
+msgid "hip_sftr"
+msgstr "biodrowy"
+
+msgid "knee_sftr"
+msgstr "kolanowy"
+
+msgid "angle_upper_and_lower_sftr"
+msgstr "skokowy górny i dolny"
+
+msgid "extension"
+msgstr "wyprost"
+
+msgid "bend"
+msgstr "zgięcie"
+
+msgid "left_slope"
+msgstr "skłon boczny w lewo"
+
+msgid "right_slope"
+msgstr "skłon boczny w prawo"
+
+msgid "left_rotation"
+msgstr "rotacja w lewo"
+
+msgid "right_rotation"
+msgstr "rotacja w prawo"
+
+msgid "abduction"
+msgstr "odwodzenie"
+
+msgid "horizontal_plane_extension"
+msgstr "wyprost w płaszczyźnie horyzontalnej"
+
+msgid "horizontal_plane_bend"
+msgstr "zgięcie w płaszczyźnie horyzontalnej"
+
+msgid "outter_rotation"
+msgstr "rotacja zewnętrzna"
+
+msgid "inner_rotation"
+msgstr "rotacja wewnętrzna"
+
+msgid "elbow_abduction"
+msgstr "odwodzenie łokciowe"
+
+msgid "inradial_abduction"
+msgstr "odwodzenie dopromieniowe"
+
+msgid "inelbow_adduction"
+msgstr "przywodzenie dołokciowe"
+
+msgid "hand_abduction"
+msgstr "odwodzenie dłoniowe"
+
+msgid "hand_adduction"
+msgstr "przywodzenie dłoniowe"
+
+msgid "guided"
+msgstr "odprowadzenie"
+
+msgid "enclose"
+msgstr "obwodzenie"
+
+msgid "dynamometry_card"
+msgstr "karta dynamometryczna"
+
+msgid "dynamometry_cards"
+msgstr "karty dynamometryczne"
+
+msgid "muscles"
+msgstr "mięśnie"
+
+msgid "muscle"
+msgstr "mięsień"
+
+msgid "duration"
+msgstr "czas trwania"
+
+msgid "max"
+msgstr "max"
+
+msgid "max_relative"
+msgstr "max względny"
+
+msgid "average"
+msgstr "średnia"
+
+msgid "average_relative"
+msgstr "średnia względna"
+
+msgid "surface_area"
+msgstr "pole powierzchni"
+
+msgid "relative_surface_area"
+msgstr "pole powierzchni względne"
+
+msgid "standard_deviation"
+msgstr "odchylenie standardowe"
+
+msgid "to_max"
+msgstr "czas osiągnięcia max. skurczu"
+
+msgid "relative_to_max"
+msgstr "czas osiągnięcia max. skurczu względem wzorca"
+
+msgid "to_zero"
+msgstr "czas osiągnięcia rozluźnienia"
+
+msgid "relative_to_zero"
+msgstr "czas osiągnięcia rozluźnienia względem wzorca"
+
+msgid "mass"
+msgstr "ciężar"
+
+msgid "MVIC"
+msgstr "MVIC"
+
+msgid "relative_MVIC"
+msgstr "MVIC względne"
+
+msgid "max_EMG"
+msgstr "EMG max"
+
+msgid "max_relative_EMG"
+msgstr "EMG max względne"
+
+msgid "average_EMG"
+msgstr "EMG średnie"
+
+msgid "average_relative_EMG"
+msgstr "EMG średnie względne"
+
+msgid "EMG_surface_area"
+msgstr "EMG pole powierzchni"
+
+msgid "EMG_relative_surface_area"
+msgstr "EMG pole powierzchni względne"
+
+msgid "EMG_standard_deviation"
+msgstr "EMG odchylenie standardowe"
+
+msgid "WNM"
+msgstr "WNM"
+
+msgid "neurophysiological_study"
+msgstr "badanie neurofizjologiczne"
+
+msgid "neurophysiological_studys"
+msgstr "badania neurofizjologiczne"
+
+msgid "neurorehabilitation"
+msgstr "neurorehabilitacja"
+
+msgid "neurorehabilitations"
+msgstr "neurorehabilitacje"
+
+msgid "medical_consultation"
+msgstr "konsultacja lekarska"
+
+msgid "medical_consultations"
+msgstr "konsultacje lekarskie"
+
+msgid "physiotherapy"
+msgstr "fizykoterapia"
+
+msgid "physiotherapys"
+msgstr "fizykoterapie"
+
+msgid "massage_reflexology"
+msgstr "masaż i refleksoterapia"
+
+msgid "massage_reflexologys"
+msgstr "masaże i refleksoterapie"
+
+msgid "diet"
+msgstr "dieta"
+
+msgid "diets"
+msgstr "diety"
+
+msgid "recommendations"
+msgstr "rekomendacje"
+
+msgid "Recommendations"
+msgstr "Rekomendacje"
+
+msgid "quantity"
+msgstr "ilość/częstotliwość"
+
+msgid "pharmacology_phytotherapy"
+msgstr "farmakologia/fitoterapia"
+
+msgid "commissioned_study"
+msgstr "zlecone badania"
+
+msgid "procedure_types"
+msgstr "rodzaje procedur"
+
+msgid "program_description"
+msgstr "opis programu"
+
+msgid "study_position"
+msgstr "pozycja badania"
+
+msgid "study_positions"
+msgstr "pozycje badania"

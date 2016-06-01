@@ -1,0 +1,28 @@
+language: python
+addon:
+  - mariadb
+python:
+  - "2.7"
+  - "3.5"
+
+env:
+  - DB_NAME=akson_test
+
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+  - pip install -r test_requirements.txt
+  - mysql -e "DROP DATABASE IF EXISTS ${DB_NAME}; CREATE DATABASE ${DB_NAME} CHARACTER SET utf8;"
+  - python manage.py makemigrations
+  - python manage.py migrate
+  - python manage.py compilemessages
+  - python manage.py collectstatic --noinput
+#  - ./manage/prod/loaddatabase.sh
+
+# command to run tests
+script:
+  - python manage.py check
+  - python manage.py test --settings=akson_db.test_settings
+  - coverage run manage.py test --settings=akson_db.test_settings
+
+after_success: coveralls
