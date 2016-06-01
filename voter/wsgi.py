@@ -1,5 +1,5 @@
 """
-WSGI config for akson_db project.
+WSGI config for voter project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "akson_db.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "voter.settings")
 
 application = get_wsgi_application()

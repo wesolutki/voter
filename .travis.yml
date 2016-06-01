@@ -6,7 +6,7 @@ python:
   - "3.5"
 
 env:
-  - DB_NAME=akson_test
+  - DB_NAME=voter_test
 
 # command to install dependencies
 install:
@@ -22,7 +22,7 @@ install:
 # command to run tests
 script:
   - python manage.py check
-  - python manage.py test --settings=akson_db.test_settings
-  - coverage run manage.py test --settings=akson_db.test_settings
+  - python manage.py test --settings=voter.test_settings
+  - coverage run manage.py test --settings=voter.test_settings
 
 after_success: coveralls

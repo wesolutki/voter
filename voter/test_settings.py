@@ -1,4 +1,4 @@
-from akson_db.settings import *
+from voter.settings import *
 
 DEBUG = True
 

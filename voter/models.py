@@ -1,3 +1,5 @@
+from common.models import *
+
 class Wspolnota(models.Model):
     nazwa = models.CharField(max_length = 255, blank = True, null = True)
     adres = models.TextField()
