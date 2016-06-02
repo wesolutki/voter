@@ -2,32 +2,33 @@ from common.models import *
 
 
 class Wspolnota(models.Model):
-    nazwa = models.CharField(max_length=255, blank=True, null=True)
+    nazwa = models.CharField(max_length=255)
     adres = models.TextField()
 
 
 class Wlasciciel(models.Model):
-    wspolnota = models.ForeignKey(Wspolnota, blank=True, null=True)
-    nazwa = models.CharField(max_length=255, blank=True, null=True)
-    numer = models.CharField(max_length=64, blank=True, null=True)
+    wspolnota = models.ForeignKey(Wspolnota)
+    nazwa = models.CharField(max_length=255)
+    numer = models.CharField(max_length=64)
+    udzial = models.FloatField()
 
 
 class Uchwala(models.Model):
-    wspolnota = models.ForeignKey(Wspolnota, blank=True, null=True)
-    numer = models.CharField(max_length=64, blank=True, null=True)
-    tresc = models.TextField(blank=True, null=True)
-    zakonczenie_glosowania = models.DateTimeField(blank=True, null=True)
+    wspolnota = models.ForeignKey(Wspolnota)
+    numer = models.CharField(max_length=64)
+    tresc = models.TextField()
+    zakonczenie_glosowania = models.DateTimeField()
 
 
 class Glos(models.Model):
-    uchwala = models.ForeignKey(Uchwala, blank=True, null=True)
-    wlasciciel = models.ForeignKey(Uchwala, blank=True, null=True)
-    oddany_glos = models.BooleanField(blank=True, null=True)
+    uchwala = models.ForeignKey(Uchwala)
+    wlasciciel = models.ForeignKey(Wlasciciel)
+    decyzja = models.BooleanField()
 
 
 class DraftUchwaly(models.Model):
-    wspolnota = models.ForeignKey(Wspolnota, blank=True, null=True)
-    tresc = models.TextField(blank=True, null=True)
+    wspolnota = models.ForeignKey(Wspolnota)
+    tresc = models.TextField()
 
 
 class Komentarz(models.Model):
