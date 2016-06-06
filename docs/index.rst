@@ -1,4 +1,10 @@
-   @startuml 
-   Alice -> Bob: Hi!
-   Alice <- Bob: How are you?
+.. uml:: 
+   
+   @startuml
+   user -> (use PlantUML)
+
+   note left of user
+      Hello!   
+   end note
    @enduml
+   
