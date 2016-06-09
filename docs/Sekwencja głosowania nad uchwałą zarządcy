@@ -1,0 +1,36 @@
+@startuml
+
+title "Głosowanie nad uchwałą zarządcy"
+
+actor Zarząd
+actor Członek
+control System
+database "Baza danych" as Baza
+
+Zarząd -> System : Logowanie
+System -> Zarząd : Strona głowna
+
+Zarząd -> System : Dodanie uchwały
+System -> Baza : Utworzenie uchwały
+Baza -> System : Potwierdzenie
+System -> Zarząd : Potwierdzenie
+
+group Dla każdego członka
+    System -> Członek : Informacja o głosowaniu na maila
+    Członek -> System : Logowanie
+    note right: Czy to jest wymagane?\nMożna w linku zaszyć\nunikatowy identyfikator\nczłonek-głosowanie\ni zalogować na tej podstawie
+    System -> Członek : Strona z głosowaniem
+    Członek -> System : Oddanie głosu
+    System -> Baza : Zapisanie głosu
+    Baza -> System : Potwierdzenie
+    System -> Członek : Potwierdzenie
+end
+
+System -> System : Zakończenie głosowania
+System -> Baza : Zapis podsumowania głosowania
+group Dla każdego członka
+    System -> Członek : Informacja o zakończeniu głosowania
+end
+System -> Zarząd : Informacja o zakończeniu głosowania
+
+@enduml
