@@ -23,7 +23,12 @@ class Uchwala(models.Model):
 class Glos(models.Model):
     uchwala = models.ForeignKey(Uchwala)
     czlonek = models.ForeignKey(czlonek)
-    decyzja = models.BooleanField()
+    decyzja = models.BooleanField(widget=RadioSelect(choices=YES_OR_NO))
+    TAK_LUB_NIE = (
+        (True, 'Tak'),
+        (False, 'Nie')
+    )
+
 
 
 class SzkicUchwaly(models.Model):
