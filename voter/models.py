@@ -6,7 +6,7 @@ class Wspolnota(models.Model):
     adres = models.TextField()
 
 
-class Wlasciciel(models.Model):
+class Czlonek(models.Model):
     wspolnota = models.ForeignKey(Wspolnota)
     nazwa = models.CharField(max_length=255)
     numer = models.CharField(max_length=64)
@@ -22,11 +22,11 @@ class Uchwala(models.Model):
 
 class Glos(models.Model):
     uchwala = models.ForeignKey(Uchwala)
-    wlasciciel = models.ForeignKey(Wlasciciel)
+    czlonek = models.ForeignKey(czlonek)
     decyzja = models.BooleanField()
 
 
-class DraftUchwaly(models.Model):
+class SzkicUchwaly(models.Model):
     wspolnota = models.ForeignKey(Wspolnota)
     tresc = models.TextField()
 
