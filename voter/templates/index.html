@@ -1,0 +1,9 @@
+{% if ostatnie_uchwaly %}
+    <ul>
+    {% for uchwala in ostatnie_uchwaly %}
+        <li><a href="/uchwala/{{ uchwala.id }}/">{{ uchwala.numer }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>Brak ostatnio podejmowanych uchwał.</p>
+{% endif %}

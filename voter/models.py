@@ -1,5 +1,5 @@
 from common.models import *
-
+from django import forms
 
 class Wspolnota(models.Model):
     nazwa = models.CharField(max_length=255)
@@ -22,13 +22,9 @@ class Uchwala(models.Model):
 
 class Glos(models.Model):
     uchwala = models.ForeignKey(Uchwala)
-    czlonek = models.ForeignKey(czlonek)
-    decyzja = models.BooleanField(widget=RadioSelect(choices=YES_OR_NO))
-    TAK_LUB_NIE = (
-        (True, 'Tak'),
-        (False, 'Nie')
-    )
-
+    czlonek = models.ForeignKey(Czlonek)
+    # TODO dorobic radio buttony zamiast checkboxa
+    decyzja = models.BooleanField()
 
 
 class SzkicUchwaly(models.Model):

@@ -1,10 +1,10 @@
 from django.contrib import admin
-from voter.models import DraftUchwaly, Glos, Komentarz, Uchwala, Wlasciciel, Wspolnota
+from voter.models import SzkicUchwaly, Glos, Komentarz, Uchwala, Czlonek, Wspolnota
 
 
-class DraftUchwalyAdmin(admin.ModelAdmin):
+class SzkicUchwalyAdmin(admin.ModelAdmin):
     pass
-admin.site.register(DraftUchwaly, DraftUchwalyAdmin)
+admin.site.register(SzkicUchwaly, SzkicUchwalyAdmin)
 
 
 class GlosAdmin(admin.ModelAdmin):
@@ -22,9 +22,9 @@ class UchwalaAdmin(admin.ModelAdmin):
 admin.site.register(Uchwala, UchwalaAdmin)
 
 
-class WlascicielAdmin(admin.ModelAdmin):
+class CzlonekAdmin(admin.ModelAdmin):
     pass
-admin.site.register(Wlasciciel, WlascicielAdmin)
+admin.site.register(Czlonek, CzlonekAdmin)
 
 
 class WspolnotaAdmin(admin.ModelAdmin):
